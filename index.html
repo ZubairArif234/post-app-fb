@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="header">
+            <h2 class="creatpost">
+              <center>
+                create post
+              </center>
+            </h2>
+            <div class="imgandname">
+                <img src="assets/profileimg.jpg" alt="profileimg" class="profimg">
+                <p class="username"> Mirza Shah </p>
+            </div>
+                <div class="text">
+                    <textarea placeholder="     What's on your mind , Mirza ?" id="textarea"  onfocus="postcolour()" onblur="postcolour2()"></textarea>
+                    <center>
+                    <div class="colourandsmily">
+                      
+                      <img src="assets/coloursquarebix.png" alt="" class="colorsmile" id="colouroptmenu" >
+                      
+                      <div class="colouroptions" id="colouroptbtn">
+                        <img src="assets/grey.png" alt="" class="colouropt" id="colouropt1" onclick="colouropt1()">
+                        <img src="assets/pink.png" alt="" class="colouropt" id="colouropt2" onclick="colouropt2()">
+                        <img src="assets/lightbluecolor.png" alt="" class="colouropt" id="colouropt3" onclick="colouropt3()">
+                        <img src="assets/orange.png" alt="" class="colouropt" id="colouropt4" onclick="colouropt4()">
+                        <img src="assets/lightpurple.png" alt="" class="colouropt" id="colouropt5" onclick="colouropt5()">
+                        <img src="assets/marchanta.png" alt="" class="colouropt" id="colouropt6" onclick="colouropt6()">
+                        <img src="assets/thandablue.png" alt="" class="colouropt" id="colouropt7" onclick="colouropt7()">
+                      </div>
+                      <img src="assets/smileface.png" alt="" class="colorsmile2" id="smilecol2">
+                    </div>
+                    <div class="colour">
+                
+                      
+                          <div class="options">
+                            <p class="optP">
+                              Add to your post
+                            </p>
+                            
+                              <ul class="parentopt">
+                                <li class="optimg">
+                                  <img src="assets/uploadpic.png" alt="" class="optimg">
+                                </li>
+                                <li class="optimg">
+                                  <img src="assets/tagpeople.png" alt="" class="optimg">
+                                </li>
+                                <li class="optimg">
+                                  <img src="assets/smileface.png" alt="" class="optimg">
+                                </li>
+                                <li class="optimg">
+                                  <img src="assets/location.png" alt="" class="optimg">
+                                </li>
+                                <li class="optimg">
+                                  <img src="assets/lifeevnts.jpg" alt="" class="optimg">
+                                </li>
+                                <li class="optimg">
+                                  <img src="assets/threedot.png" alt="" class="optimg">
+                                </li>
+                              </ul>
+                            
+                          </div>
+                        </center>
+                          <div class="btnpost">
+                      
+                            <input type="button" value="post" class="postbtn" id="posbtn" onclick="postval()">
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-primary" role="alert" id="alert">
+          Successfully Posted !
+        </div>
+    
+    </div>
+
+
+
+
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
