@@ -160,3 +160,54 @@
 #alert {
     display: none;
 }
+
+#likecommshare {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lms {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    /* display: flex; */
+}
+
+#commentsec {
+    border: 2px solid black;
+    width: 380px;
+    margin: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+#comment {
+    width: 300px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+}
+
+#someonecomm {
+    display: none;
+    margin-left: 10px;
+}
+
+.ppp {
+    margin-left: 10px;
+}
+.commimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#commenthogaya {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#postboxletter{
+    display: none;
+}
